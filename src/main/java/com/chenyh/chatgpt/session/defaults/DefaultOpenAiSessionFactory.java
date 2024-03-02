@@ -1,5 +1,4 @@
 package com.chenyh.chatgpt.session.defaults;
-
 import com.chenyh.chatgpt.IOpenAiApi;
 import com.chenyh.chatgpt.interceptor.OpenAiInterceptor;
 import com.chenyh.chatgpt.session.Configuration;
@@ -50,7 +49,7 @@ public class DefaultOpenAiSessionFactory implements OpenAiSessionFactory {
                 .build().create(IOpenAiApi.class);
         configuration.setOpenAiApi(openAiApi);
 
-        return new cn.bugstack.chatgpt.session.defaults.DefaultOpenAiSession(configuration);
+        return new DefaultOpenAiSession(configuration);
     }
 
 }

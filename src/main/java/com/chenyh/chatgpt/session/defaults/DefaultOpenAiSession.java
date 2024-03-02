@@ -1,4 +1,4 @@
-package cn.bugstack.chatgpt.session.defaults;
+package com.chenyh.chatgpt.session.defaults;
 
 import com.chenyh.chatgpt.IOpenAiApi;
 import com.chenyh.chatgpt.common.Constants;
